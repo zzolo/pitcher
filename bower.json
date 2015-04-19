@@ -1,0 +1,23 @@
+{
+  "name": "pitcher",
+  "version": "0.0.1",
+  "homepage": "https://github.com/zzolo/pitcher",
+  "authors": [
+    "Alan Palazzolo <alan.palazzolo@gmail.com>"
+  ],
+  "description": "Some experiments with pitch and voice detection in the browser.",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fft.js": "https://github.com/jensnockert/fft.js.git",
+    "pitch.js": "https://github.com/audiocogs/pitch.js.git",
+    "normalize-css": "~3.0.3"
+  }
+}

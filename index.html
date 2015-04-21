@@ -12,12 +12,27 @@
   </head>
   <body>
 
+    <div id="pitcher-container"></div>
 
-    <audio autoplay id="output"></audio>
 
+
+    <script type="text/template" id="pitcher-template">
+      <svg width="{{ w }}px" height="{{ h }}px">
+        {{#leftWave:i}}
+          <circle intro="disappear" class="left-wave" cx="20%" cy="50%" r="{{ this + r * 2 }}px" />
+        {{/leftWave}}
+        <circle id="left-point" cx="20%" cy="50%" r="{{ r }}px" />
+
+        {{#rightWave:i}}
+          <circle intro="disappear" class="right-wave" cx="80%" cy="50%" r="{{ this + r * 2 }}px" />
+        {{/rightWave}}
+        <circle id="right-point" cx="80%" cy="50%" r="{{ r }}px" />
+      </svg>
+    </script>
 
     <script src="bower_components/underscore/underscore.js"></script>
     <script src="bower_components/backbone/backbone.js"></script>
+    <script src="bower_components/ractive/ractive.js"></script>
     <script src="js/pitcher.js"></script>
     <script src="js/main.js"></script>
   </body>

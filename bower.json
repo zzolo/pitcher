@@ -19,6 +19,7 @@
     "normalize-css": "~3.0.3",
     "backbone": "~1.1.2",
     "PitchDetect": "https://github.com/cwilso/PitchDetect.git",
-    "underscore": "~1.8.3"
+    "underscore": "~1.8.3",
+    "ractive": "~0.7.2"
   }
 }

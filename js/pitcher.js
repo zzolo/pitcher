@@ -55,9 +55,15 @@ _.extend(Pitcher.prototype, Backbone.Events, {
     var pitch = Math.round(ac);
     var note = this.noteFromPitch(pitch);
 
-    // Send out data
+    // Check if a pitch was found
     if (ac > 0) {
+      // Get frequency
+  	  var frequency = new Uint8Array(this.analyser.frequencyBinCount);
+  	  this.analyser.getByteFrequencyData(frequency);
+
+      // Send out data
       this.trigger('pitch', {
+        frequency: frequency,
         ac: ac,
         pitch: pitch,
         note: note,

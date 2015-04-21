@@ -1,0 +1,32 @@
+
+
+#right-point,
+#left-point {
+  fill-opacity: 0.85;
+  stroke-opacity: 0.9;
+  stroke-width: 5;
+}
+
+#right-point {
+  fill: #00A388;
+  stroke: #008A73;
+}
+#left-point {
+  fill: #FF6138;
+  stroke: #FF4B1F;
+}
+
+.right-wave,
+.left-wave {
+  fill-opacity: 0.15;
+  stroke-opacity: 0.75;
+}
+
+.right-wave {
+  fill: #79BD8F;
+  stroke: #222222;
+}
+.left-wave {
+  fill: #FFFF9D;
+  stroke: #222222;
+}

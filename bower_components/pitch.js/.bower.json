@@ -1,0 +1,14 @@
+{
+  "name": "pitch.js",
+  "homepage": "https://github.com/audiocogs/pitch.js",
+  "_release": "7ee717610b",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "7ee717610b4bcd9f587b921db8500dc7283c43aa"
+  },
+  "_source": "https://github.com/audiocogs/pitch.js.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/audiocogs/pitch.js.git",
+  "_direct": true
+}

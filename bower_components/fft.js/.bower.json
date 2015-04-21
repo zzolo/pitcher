@@ -1,0 +1,14 @@
+{
+  "name": "fft.js",
+  "homepage": "https://github.com/jensnockert/fft.js",
+  "_release": "dd96e6bec5",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "dd96e6bec5464fe6b30c91ddbfdef88ea9d70bd1"
+  },
+  "_source": "https://github.com/jensnockert/fft.js.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/jensnockert/fft.js.git",
+  "_direct": true
+}

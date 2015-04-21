@@ -1,8 +1,11 @@
+# For github hosting
+!bower_components
+!dist
 
 # General git ignores
 node_modules/
 components/
-bower_components/
+#bower_components/
 .sass-cache
 .tmp
 tmp/

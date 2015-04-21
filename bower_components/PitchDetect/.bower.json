@@ -1,0 +1,14 @@
+{
+  "name": "PitchDetect",
+  "homepage": "https://github.com/cwilso/PitchDetect",
+  "_release": "3bb2648063",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "3bb2648063258e77b831adb2827a81ff06a99fd5"
+  },
+  "_source": "https://github.com/cwilso/PitchDetect.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/cwilso/PitchDetect.git",
+  "_direct": true
+}

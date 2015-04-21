@@ -1,0 +1,35 @@
+{
+  "name": "ractive",
+  "description": "Next-generation DOM manipulation",
+  "version": "0.7.2",
+  "keywords": [
+    "reactive",
+    "templates",
+    "templating",
+    "ui",
+    "mustache",
+    "handlebars",
+    "dom"
+  ],
+  "homepage": "http://ractivejs.org",
+  "main": "ractive.js",
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ractivejs/ractive.git"
+  },
+  "_release": "0.7.2",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.7.2",
+    "commit": "76cad52d8ac7083fb6112b559c78a5f74e72aaff"
+  },
+  "_source": "git://github.com/ractivejs/ractive.git",
+  "_target": "~0.7.2",
+  "_originalSource": "ractive",
+  "_direct": true
+}

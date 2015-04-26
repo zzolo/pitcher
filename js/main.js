@@ -5,14 +5,14 @@
   var e = d.documentElement;
   var g = d.getElementsByTagName('body')[0];
   var w = window.innerWidth || e.clientWidth || g.clientWidth;
-  var h = window.innerHeight|| e.clientHeight|| g.clientHeight;
+  var h = window.innerHeight || e.clientHeight || g.clientHeight;
   var leftPitch = 500;
   var rightPitch = 1200;
 
   // Transiont to disappear
   var disappear = function(t, params) {
     // Process parameters (second argument provides defaults)
-    params = t.processParams( params, {
+    params = t.processParams(params, {
       duration: 200
     });
 
@@ -60,6 +60,7 @@
       r.set('rightWave', freq);
     }
   });
+
   // Also, watch for the stream (mic) to be enabled
   p.on('media-stream', function() {
     r.set('streamReady', true);
@@ -111,6 +112,7 @@
       var total = _.reduce(values, function(memo, v, vi) {
         return memo + v;
       }, 0);
+      
       done(total / values.length);
       p.off('pitch', getPitch);
       window.clearInterval(timerID);
